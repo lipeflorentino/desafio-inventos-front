@@ -34,7 +34,7 @@ class App extends Component {
   enviaForm(event){
     event.preventDefault();
     $.ajax({
-      url:'https://9bybkitu62.execute-api.us-east-1.amazonaws.com/dev/gerenciarPedidos/registrarPedido/asdf',
+      url:'https://9bybkitu62.execute-api.us-east-1.amazonaws.com/dev/gerenciarPedidos/registrarPedido/' + this.state.value,
       contentType:'application/json',
       dataType:'json',
       type:'post',
