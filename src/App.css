@@ -37,6 +37,7 @@ span.yellow{
 
 #form{
   width: 500px;
+  max-width: 80%;
 }
 footer{
     position: absolute;
@@ -46,4 +47,10 @@ footer{
 }
 .App-header p{
   margin:20px 0px;
+}
+@media only screen and (max-width: 500px) {
+  #form{
+  
+  width: 90%;
+}
 }
