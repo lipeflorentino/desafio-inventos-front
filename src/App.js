@@ -51,10 +51,10 @@ class App extends Component {
         },
       success: function(resposta){
         console.log(resposta);
-        alert(resposta);
+        alert(resposta.message);
       },
       error: function(resposta){
-        console.log(resposta);
+        console.log(resposta.message);
         alert(resposta);
       }
     });
