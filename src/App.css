@@ -48,6 +48,12 @@ footer{
 .App-header p{
   margin:20px 0px;
 }
+.App-header h4{
+  font-size:1rem;
+}
+.form-group label{
+  font-size: 0.7rem;
+}
 @media only screen and (max-width: 500px) {
   #form{
   
